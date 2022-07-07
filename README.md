@@ -1,5 +1,7 @@
 # Random pokemon idea
 
+![Made with Python](http://ForTheBadge.com/images/badges/made-with-python.svg)
+
 ![](https://github.com/MrRoiPanda/Random-Pokemon-Idea/blob/fc4d9e37389c74f8eb85e77eb5c1f9e27dcbbf01/gui.gif)
 
 
