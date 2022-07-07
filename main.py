@@ -14,35 +14,7 @@ gui.geometry("1280x720")
 txtfont = font.Font(family='Helvitica', size=20)
 btnfont = font.Font(family='Helvitica', size=15)
 
-#print('abs dirname: ', os.path.dirname(os.path.abspath(__file__)))
-#gui.iconbitmap(os.path.dirname(os.path.abspath(__file__)) + "/favicon/favicon.ico")
-
-#Top menu
-#menubar = Menu(gui)
-#
-#menuFile = Menu(menubar, tearoff=0)
-#menuFile.add_command(label="Creat")
-#menuFile.add_command(label="Edit")
-#menuFile.add_separator()
-#menuFile.add_command(label="Quit", command=gui.quit)
-#menubar.add_cascade(label="File", menu=menuFile)
-#
-#menuTest = Menu(menubar, tearoff=0)
-#menuTest.add_command(label="Pré-test")
-#menuTest.add_command(label="Test Annuel")
-#menuTest.add_separator()
-#menuTest.add_command(label="Nouveau Test")
-#menuTest.add_command(label="Test Actuel")
-#menubar.add_cascade(label="Test", menu=menuTest)
-#
-#menuHelp = Menu(menubar, tearoff=0)
-#menuHelp.add_command(label="Utilisation")
-#menuHelp.add_separator()
-#menuHelp.add_command(label="About")
-#menubar.add_cascade(label="Help", menu=menuHelp)
-#
-#gui.config(menu=menubar)
-
+#Text display
 Type1 = Label(gui, text="Type 1", font=txtfont)
 Type1.pack()
 Type2 = Label(gui, text="Type 2", font=txtfont)
@@ -50,6 +22,7 @@ Type2.pack()
 creatures = Label(gui, text="Creature", font=txtfont)
 creatures.pack()
 
+#Randome selector & label editor
 def randtype():
     words = ['Normal', 'Fire', 'Water', 'Grass', 'Flying', 'Fighting', 'Poison', 'Electric',
              'Ground', 'Rock', 'Psychic', 'Ice', 'Bug', 'Ghost', 'Steel', 'Dragon', 'Dark', 'Fairy']
@@ -77,7 +50,7 @@ def randtype():
 
     print('===========================')
 
-
+#Button
 randtypebtn = Button(
     gui, text='Randome Pokemon Type', command=randtype, 
     bg='#f44336', fg='#ffffff', bd=0, font=btnfont
