@@ -1,6 +1,4 @@
-Random pokemon idea
-
-![](https://github.com/MrRoiPanda/Random-Pokemon-Idea/blob/fc4d9e37389c74f8eb85e77eb5c1f9e27dcbbf01/gui.gif)
+# Random pokemon idea
 
 ## Le principe
 L'idee vien de la video de [Deo Toons (DIABO)](https://youtu.be/xvrL8h4VLbs)
@@ -65,6 +63,8 @@ Puis 1 ou 2 type (elec, feu, eau, etc...)
 - Fairy
 
 </details>
+
+![](https://github.com/MrRoiPanda/Random-Pokemon-Idea/blob/fc4d9e37389c74f8eb85e77eb5c1f9e27dcbbf01/gui.gif)
 
 ## To-Do List
 
