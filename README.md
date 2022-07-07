@@ -70,5 +70,5 @@ Puis 1 ou 2 type (elec, feu, eau, etc...)
 
 ## To-Do List
 
-- [] Unifier la langue en francais
-- [] Refair l'interface
+-[ ] Unifier la langue en francais
+-[ ] Refair l'interface
